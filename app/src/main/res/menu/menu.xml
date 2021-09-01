@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/design_one"
+        android:icon="@drawable/ic_list"
+        android:title="Design One"/>
+
+    <item
+        android:id="@+id/design_two"
+        android:icon="@drawable/ic_list"
+        android:title="Design Two"/>
+
+    <item
+        android:id="@+id/logic_one"
+        android:icon="@drawable/ic_code"
+        android:title="Logic One"/>
+
+    <item
+        android:id="@+id/logic_two"
+        android:icon="@drawable/ic_code"
+        android:title="Logic Two"/>
+
+</menu>

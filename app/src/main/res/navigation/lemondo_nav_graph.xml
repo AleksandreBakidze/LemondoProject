@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lemondo_nav_graph"
+    app:startDestination="@id/design_one">
+
+    <fragment
+        android:id="@+id/design_one"
+        android:name="com.example.lemondohomework.fragments.DesignOneFragment"
+        android:label="fragment_design_one"
+        tools:layout="@layout/fragment_design_one" />
+    <fragment
+        android:id="@+id/design_two"
+        android:name="com.example.lemondohomework.fragments.DesignTwoFragment"
+        android:label="fragment_design_two"
+        tools:layout="@layout/fragment_design_two" />
+    <fragment
+        android:id="@+id/logic_one"
+        android:name="com.example.lemondohomework.fragments.LogicOneFragment"
+        android:label="fragment_logic_one"
+        tools:layout="@layout/fragment_logic_one" />
+    <fragment
+        android:id="@+id/logic_two"
+        android:name="com.example.lemondohomework.fragments.LogicTwoFragment"
+        android:label="fragment_logic_two"
+        tools:layout="@layout/fragment_logic_two" />
+</navigation>
